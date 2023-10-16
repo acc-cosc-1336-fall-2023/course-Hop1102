@@ -25,3 +25,10 @@ def slice_string(str):
 
 def slice_w_step_value(str):
     return str[0:len(str):2]
+
+def search_in_string(str1, str2):
+    return str1 in str2 
+
+def use_repetition_operator(num):
+    for n in range(1, num + 1):
+        print('*' * n)
