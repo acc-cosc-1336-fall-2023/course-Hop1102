@@ -36,3 +36,16 @@ def display_reverse_list_w_for_range():
 
     for i in range(len(list1), 0, -1):
         print(list1[i-1])   
+
+def get_multiplication_table(max_value):
+    table = []
+
+    for r in range(1, max_value + 1):
+        row = []
+
+        for c in range(1, max_value + 1):
+            row.append(r*c)
+            
+        table.append(row)
+
+    return table
