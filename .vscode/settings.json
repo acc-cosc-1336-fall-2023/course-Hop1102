@@ -13,5 +13,8 @@
         "ACCGGGTTTT",
         "CATCGTAATGACGGCCT",
         "GAGCCTACTAACGGGAT"
+    ],
+    "python.analysis.extraPaths": [
+        "./src/homework/i_dictionaries_sets"
     ]
 }
